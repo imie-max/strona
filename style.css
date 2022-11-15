@@ -1,0 +1,139 @@
+ body {
+	background-color: rgb(132, 187, 214);
+	color: rgb(5, 17, 29);
+    font-family: Arial, Helvetica, sans-serif;
+	margin: 5px;
+	padding: 5px;
+	width: auto;
+}
+aside 
+{ 
+    color: white;
+    background: #043865; 
+    height: auto;  
+    float: right; 
+}
+header {
+    background-color: rgb(0, 85, 182) ;
+	color: #123;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin: 20px;
+	padding: 20px;
+	width: 50%;
+    text-align: center;
+}
+footer{
+    background-color: rgb(0, 85, 182) ;
+    text-align: end;
+    font-size: 25px;
+
+}
+.nav {
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 0;
+    background-color: lightblue;
+}
+.nav-item {
+    display: inline-block;
+}
+.nav-item a{
+    color: #fff;
+    font-size: 16px;
+    padding: 0 50px;
+    text-transform: uppercase;
+
+}
+.boxbig{
+    align-items: flex-start;
+    width:300px;
+    height:auto;
+    position: relative;
+    border-radius: 10px;
+    color: white;
+    background: #043865;  
+    float: right; 
+    
+}
+
+.img{
+    width: 90px;
+    height: 100px;
+    object-fit: cover;
+    
+}
+.btn{
+    background-color: tomato;
+    cursor:pointer;
+    border-radius: 4px;
+}
+.btn:hover{
+    background-color: blue;
+}
+.boxsmall1{
+    align-items: flex-start;
+    width:40%;
+    height:80%;
+    padding: 15px;
+    position: relative;
+    color: white;
+    
+    float: right; 
+    margin-top: 8%;
+    object-fit: contain;
+}
+.boxsmall2{
+    align-items: flex-start;
+    width:40%;
+    height:80%;
+    padding: 15px;
+    position: relative;
+    color: white;
+     
+    float: left; 
+    margin-top: 8%;
+    object-fit: contain;
+    
+}
+.gradient{
+    background-image: linear-gradient(rgb(47, 0, 255), rgb(255, 255, 255));
+  }
+.underline {
+    text-decoration: underline ;
+}
+.class:hover{
+    cursor: pointer;
+}
+
+.round  {
+    border-radius:20px;
+}
+.big {
+    text-transform: uppercase;
+    text-align: center;
+}
+table, th,td{
+    border: 1px solid;
+}
+.center{
+    text-align: center;
+}
+.color{
+    background-color: rgb(21, 106, 191);
+   font-size: large;
+   text-align: center;
+   margin: 10px;
+	padding: 10px;
+	width: auto;
+
+}
+
+@media only screen and (max-width: 600px) {
+   body{
+    background-color : white;
+   }
+    
+}
+    
+  
